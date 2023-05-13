@@ -1,0 +1,59 @@
+.pagination,
+.pagination-l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.btn-left,
+.btn-right,
+.btn-left-l,
+.btn-right-l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  border-radius: 5px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  cursor: pointer;
+}
+
+.pagination-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  width: 40px;
+  height: 40px;
+}
+
+.current,
+.current-l {
+  color: $white-color;
+  background-color: $red-color;
+  border-radius: 5px;
+}
+
+.first-left,
+.first-right,
+.second-left,
+.second-right,
+.first-left-l,
+.first-right-l,
+.second-left-l,
+.second-right-l {
+  color: $black-color;
+  background-color: $white-color;
+  cursor: pointer;
+}
